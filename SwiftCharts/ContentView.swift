@@ -6,14 +6,13 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ContentViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            BarChart(data: viewModel.stackedBarData)
         }
     }
 }

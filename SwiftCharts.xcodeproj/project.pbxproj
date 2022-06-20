@@ -11,6 +11,9 @@
 		B2696F432860B47F004EEAA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2696F422860B47F004EEAA2 /* ContentView.swift */; };
 		B2696F452860B47F004EEAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2696F442860B47F004EEAA2 /* Assets.xcassets */; };
 		B2696F482860B47F004EEAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2696F472860B47F004EEAA2 /* Preview Assets.xcassets */; };
+		B2696F4F2860B587004EEAA2 /* ToyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2696F4E2860B587004EEAA2 /* ToyShape.swift */; };
+		B2696F512860B5A8004EEAA2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2696F502860B5A8004EEAA2 /* ContentViewModel.swift */; };
+		B2696F532860B628004EEAA2 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2696F522860B628004EEAA2 /* BarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		B2696F422860B47F004EEAA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2696F442860B47F004EEAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2696F472860B47F004EEAA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2696F4E2860B587004EEAA2 /* ToyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyShape.swift; sourceTree = "<group>"; };
+		B2696F502860B5A8004EEAA2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B2696F522860B628004EEAA2 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				B2696F402860B47F004EEAA2 /* SwiftChartsApp.swift */,
 				B2696F422860B47F004EEAA2 /* ContentView.swift */,
+				B2696F522860B628004EEAA2 /* BarChart.swift */,
+				B2696F502860B5A8004EEAA2 /* ContentViewModel.swift */,
 				B2696F442860B47F004EEAA2 /* Assets.xcassets */,
 				B2696F462860B47F004EEAA2 /* Preview Content */,
+				B2696F4E2860B587004EEAA2 /* ToyShape.swift */,
 			);
 			path = SwiftCharts;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2696F512860B5A8004EEAA2 /* ContentViewModel.swift in Sources */,
 				B2696F432860B47F004EEAA2 /* ContentView.swift in Sources */,
 				B2696F412860B47F004EEAA2 /* SwiftChartsApp.swift in Sources */,
+				B2696F532860B628004EEAA2 /* BarChart.swift in Sources */,
+				B2696F4F2860B587004EEAA2 /* ToyShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
